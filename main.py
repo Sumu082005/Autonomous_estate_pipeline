@@ -1,9 +1,6 @@
 import os
 import sys
-from pathlib import Path
 
-# Add the local libs folder to the system path so LiteLLM can be properly imported 
-sys.path.insert(0, str(Path(__file__).parent / "libs"))
 
 from fastapi import FastAPI, Request, Response, Form
 
